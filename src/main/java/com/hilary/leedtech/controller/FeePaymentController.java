@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/one-time-fee-payment")
+@CrossOrigin(origins = "*")
 @RequiredArgsConstructor
 @Slf4j
 public class FeePaymentController {
