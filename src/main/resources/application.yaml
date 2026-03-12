@@ -8,17 +8,20 @@ spring:
     username: sa
     password:
 
-    jpa:
-      hibernate:
-        ddl-auto: validate
-      show-sql: true
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
 
-    h2:
-      console:
-        enabled: true
-        path: /h2-console
-  
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
   flyway:
     enabled: true
-    flyway:
-      locations: classpath:db/migration
+    locations: classpath:db/migration
+
+server:
+  port: 8080
+
