@@ -21,7 +21,7 @@ import java.time.LocalDate;
 public class StudentAccount {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String studentId;
+    private Long id;
 
     private String studentNumber;
 
