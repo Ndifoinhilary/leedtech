@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ff62b4d-8cbd-4ce8-878a-0b9f0718de4d" name="Changes" comment="Write documentation to clone and run the LeedTech API backend application.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/LeedTechApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/controller/FeePaymentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/dto/FeePaymentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/dto/FeePaymentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/exception/ErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/exception/GlobalExceptionHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/model/FeePayment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/model/StudentAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/repository/FeePaymentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/repository/StudentAccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/services/FeePaymentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/services/impl/FeePaymentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/utils/IncentiveCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilary/leedtech/utils/PaymentDueDateCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__create_schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V2__seed_student_accounts.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hilary/leedtech/LeedTechApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hilary/leedtech/services/impl/FeePaymentServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hilary/leedtech/utils/IncentiveCalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hilary/leedtech/utils/PaymentDueDateCalculatorTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/home/hilary/IdeaProjects/LeedTech" value="3Aq8rKPWjtO3e2PJWR8FSUnMQPU" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="GPT-5 mini" />
+      <entry key="agent-panel" value="GPT-5 mini" />
+    </selectedModels>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="15" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HttpClientEndpointsTabState">
+    <option name="cachedRequestData" value="&lt;CachedHttpClientTabRequests&gt;&#10;  &lt;entry key=&quot;a40572dc1794f9f05f2654560f3b92e9f1721597&quot; value=&quot;###&amp;#10;POST http://localhost:8080/one-time-fee-payment&amp;#10;Content-Type: application/json&amp;#10;&amp;#10;{&amp;#10;  &amp;quot;studentNumber&amp;quot;: &amp;quot;STU-002&amp;quot;,&amp;#10;  &amp;quot;paymentAmount&amp;quot;: &amp;quot;500000&amp;quot;&amp;#10;}&quot; /&gt;&#10;&lt;/CachedHttpClientTabRequests&gt;" />
+  </component>
+  <component name="HttpClientOnboardingState"><![CDATA[{
+  "isOnboardingCommentShown": true
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="3Aq8rKPWjtO3e2PJWR8FSUnMQPU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.FeePaymentControllerTest.executor": "Run",
+    "JUnit.FeePaymentServiceImplTest$GetPaymentHistoryTests.executor": "Run",
+    "JUnit.FeePaymentServiceImplTest$ProcessPaymentTests.executor": "Run",
+    "JUnit.IncentiveCalculatorTest.executor": "Run",
+    "JUnit.PaymentDueDateCalculatorTest.executor": "Run",
+    "JUnit.PaymentDueDateCalculatorTest.resultNeverOnWeekend.executor": "Debug",
+    "Maven.LeedTech [clean].executor": "Run",
+    "Maven.LeedTech [test].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHELLCHECK.PATH": "/home/hilary/.local/share/JetBrains/IntelliJIdea2025.3/Shell Script/shellcheck",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.LeedTechApplication.executor": "Run",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/hilary/IdeaProjects/LeedTech/backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1773788409992" />
+    <option name="spentUsd" value="0.1137618" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="6" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LeedTechApplication">
+    <configuration name="FeePaymentServiceImplTest$GetPaymentHistoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeedTech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hilary.leedtech.services.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hilary.leedtech.services.impl.FeePaymentServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.hilary.leedtech.services.impl.FeePaymentServiceImplTest$GetPaymentHistoryTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeePaymentServiceImplTest$ProcessPaymentTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeedTech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hilary.leedtech.services.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hilary.leedtech.services.impl.FeePaymentServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.hilary.leedtech.services.impl.FeePaymentServiceImplTest$ProcessPaymentTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncentiveCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeedTech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hilary.leedtech.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hilary.leedtech.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.hilary.leedtech.utils.IncentiveCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentDueDateCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeedTech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hilary.leedtech.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hilary.leedtech.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.hilary.leedtech.utils.PaymentDueDateCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentDueDateCalculatorTest.resultNeverOnWeekend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeedTech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hilary.leedtech.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hilary.leedtech.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.hilary.leedtech.utils.PaymentDueDateCalculatorTest" />
+      <option name="METHOD_NAME" value="resultNeverOnWeekend" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeedTechApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="LeedTech" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hilary.leedtech.LeedTechApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IncentiveCalculatorTest" />
+        <item itemvalue="JUnit.PaymentDueDateCalculatorTest.resultNeverOnWeekend" />
+        <item itemvalue="JUnit.FeePaymentServiceImplTest$GetPaymentHistoryTests" />
+        <item itemvalue="JUnit.FeePaymentServiceImplTest$ProcessPaymentTests" />
+        <item itemvalue="JUnit.PaymentDueDateCalculatorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ff62b4d-8cbd-4ce8-878a-0b9f0718de4d" name="Changes" comment="" />
+      <created>1773308941713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773308941713</updated>
+      <workItem from="1773308965389" duration="22516000" />
+    </task>
+    <task id="LOCAL-00001" summary="init LeedTech project with Maven">
+      <option name="closed" value="true" />
+      <created>1773309199141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773309199141</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Setup models and dto for fee payment">
+      <option name="closed" value="true" />
+      <created>1773312489067</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773312489067</updated>
+    </task>
+    <task id="LOCAL-00003" summary="setting up h2 console,spring settings">
+      <option name="closed" value="true" />
+      <created>1773329026643</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773329026643</updated>
+    </task>
+    <task id="LOCAL-00004" summary="configured exception handling for ResourceNotFoundException,in build exceptions">
+      <option name="closed" value="true" />
+      <created>1773329081268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773329081268</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adjusted dependencies and models">
+      <option name="closed" value="true" />
+      <created>1773329109636</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773329109636</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created repositories for StudentAccount and FeePayment with basic CRUD operations">
+      <option name="closed" value="true" />
+      <created>1773329152071</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1773329152071</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Business logic for processing and retrieving fee payments with validation and repository interactions">
+      <option name="closed" value="true" />
+      <created>1773329326675</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1773329326675</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Writing test">
+      <option name="closed" value="true" />
+      <created>1773329361987</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1773329361987</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Setting up initial student account and fee payment tables with seed data">
+      <option name="closed" value="true" />
+      <created>1773329429548</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1773329429548</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Configure CORS for fee payment endpoint">
+      <option name="closed" value="true" />
+      <created>1773329947251</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1773329947251</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added h2 console dependency">
+      <option name="closed" value="true" />
+      <created>1773331651757</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1773331651757</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Write documentation to clone and run the LeedTech API backend application.">
+      <option name="closed" value="true" />
+      <created>1773331692783</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1773331692783</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init LeedTech project with Maven" />
+    <MESSAGE value="Setup models and dto for fee payment" />
+    <MESSAGE value="setting up h2 console,spring settings" />
+    <MESSAGE value="configured exception handling for ResourceNotFoundException,in build exceptions" />
+    <MESSAGE value="adjusted dependencies and models" />
+    <MESSAGE value="Created repositories for StudentAccount and FeePayment with basic CRUD operations" />
+    <MESSAGE value="Business logic for processing and retrieving fee payments with validation and repository interactions" />
+    <MESSAGE value="Writing test" />
+    <MESSAGE value="Setting up initial student account and fee payment tables with seed data" />
+    <MESSAGE value="Configure CORS for fee payment endpoint" />
+    <MESSAGE value="added h2 console dependency" />
+    <MESSAGE value="Write documentation to clone and run the LeedTech API backend application." />
+    <option name="LAST_COMMIT_MESSAGE" value="Write documentation to clone and run the LeedTech API backend application." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hilary/leedtech/utils/PaymentDueDateCalculatorTest.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

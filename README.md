@@ -31,15 +31,23 @@ A Spring Boot REST API that processes one-time student fee payments, applies an 
 
 ```bash
 # Clone the repository
-git clone git@github.com:Ndifoinhilary/leedtech-backend.git (using ssh)
-git clone https://github.com/Ndifoinhilary/leedtech-backend.git (using https)
-cd leedtech-backend
+git clone git@github.com:Ndifoinhilary/leedtech.git (using ssh)
 
+git clone https://github.com/Ndifoinhilary/leedtech.git (using https)
+
+cd leedtech
+
+cd backend
 # Build and start (Linux / macOS)
 ./mvnw spring-boot:run
 
 # Build and start (Windows)
 mvnw.cmd spring-boot:run
+
+cd frontend
+# Build and start (Linux / macOS)
+npm install
+npm ng s
 ```
 
 The application starts on **http://localhost:8080**.
