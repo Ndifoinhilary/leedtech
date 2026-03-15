@@ -34,9 +34,9 @@ Open `http://localhost:4200/`.
 - Form input:
   - Student number (required)
   - Payment amount (required, greater than 0)
-  - Payment date (optional; backend defaults to current date)
+  - Payment date (optional; backend defaults to the current date)
 - API call: `POST http://localhost:8080/one-time-fee-payment`
-- Result section shows:
+- The result section shows:
   - Student number
   - Previous balance
   - Payment amount

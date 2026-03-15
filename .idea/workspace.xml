@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ff62b4d-8cbd-4ce8-878a-0b9f0718de4d" name="Changes" comment="Write documentation to clone and run the LeedTech API backend application.">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/fee-payment-page.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/fee-payment-page.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/fee-payment.models.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/fee-payment.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/fee-payment.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3ff62b4d-8cbd-4ce8-878a-0b9f0718de4d" name="Changes" comment="angular ui for the interview exercises">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +248,7 @@
       <workItem from="1773349697078" duration="13000" />
       <workItem from="1773495361103" duration="11317000" />
       <workItem from="1773566393662" duration="390000" />
-      <workItem from="1773568955537" duration="602000" />
+      <workItem from="1773568955537" duration="1110000" />
     </task>
     <task id="LOCAL-00001" summary="init LeedTech project with Maven">
       <option name="closed" value="true" />
@@ -351,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773331692783</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="angular ui for the interview exercises">
+      <option name="closed" value="true" />
+      <created>1773569789769</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1773569789769</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +373,8 @@
     <MESSAGE value="Configure CORS for fee payment endpoint" />
     <MESSAGE value="added h2 console dependency" />
     <MESSAGE value="Write documentation to clone and run the LeedTech API backend application." />
-    <option name="LAST_COMMIT_MESSAGE" value="Write documentation to clone and run the LeedTech API backend application." />
+    <MESSAGE value="angular ui for the interview exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="angular ui for the interview exercises" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

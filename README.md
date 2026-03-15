@@ -43,11 +43,6 @@ cd backend
 
 # Build and start (Windows)
 mvnw.cmd spring-boot:run
-
-cd frontend
-# Build and start (Linux / macOS)
-npm install
-npm ng s
 ```
 
 The application starts on **http://localhost:8080**.
@@ -299,3 +294,50 @@ curl -X POST http://localhost:8080/one-time-fee-payment \
 curl http://localhost:8080/one-time-fee-payment/history?studentNumber=STU-001
 ```
 
+
+## Run the frontend
+
+From the project root:
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Open `http://localhost:4200/`.
+
+## Implemented one-time payment flow
+
+- Route: `/` and `/one-time-fee-payment`
+- Form input:
+    - Student number (required)
+    - Payment amount (required, greater than 0)
+    - Payment date (optional; backend defaults to current date)
+- API call: `POST http://localhost:8080/one-time-fee-payment`
+- The result section shows:
+    - Student number
+    - Previous balance
+    - Payment amount
+    - Incentive rate
+    - Incentive amount
+    - New balance
+    - Next payment due date
+
+## Validation and error handling
+
+- Prevents submitting for empty/invalid fields
+- Shows validation messages for required fields and minimum amount
+- Displays backend validation/domain errors when returned
+
+## Run tests
+
+```bash
+cd frontend
+npm test
+```
+
+## Notes
+
+- Currency values are displayed in USD format for readability.
+- Incentive tier calculation and due-date adjustment logic are implemented in backend and consumed as response values in this UI.
